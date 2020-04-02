@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-schaffrath",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "main": "lib/configuration.js",
     "devDependencies": {
         "eslint": "6.8.0"
@@ -9,6 +9,8 @@
         "lint": "npx eslint './**/*.js' --ignore-pattern './node_modules/**/*'"
     },
     "keywords": [
-        "eslint", "highlighter", "fehlerkorrektur"
+        "eslint",
+        "highlighter",
+        "fehlerkorrektur"
     ]
 }
