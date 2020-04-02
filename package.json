@@ -12,5 +12,9 @@
         "eslint",
         "highlighter",
         "fehlerkorrektur"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/macmissionar/eslint-config-schaffrath.git"
+    }
 }
