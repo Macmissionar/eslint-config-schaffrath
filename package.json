@@ -8,7 +8,7 @@
     "scripts": {
         "lint": "npx eslint './**/*.js' --ignore-pattern './node_modules/**/*'",
         "prepublish": "npm run lint",
-        "publish": "npm version process.env.type || patch",
+        "publish": "npm version ${npm_config_type}",
         "postpublish": "git push && git push --tags && npm publish"
     },
     "keywords": [
